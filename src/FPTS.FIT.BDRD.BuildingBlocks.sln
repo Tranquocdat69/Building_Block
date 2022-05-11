@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{557AB32E-2561-43E6-87E3-8ECBD32B7258}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logger.Kafka", "Logger.Kafka", "{7D705A8D-6CF5-45CD-8800-7BDC9A82880B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger.Kafka", "Logger.Kafka\src\Logger.Kafka.csproj", "{5E710083-655D-443A-AB7D-0634A243D554}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7BA1C0CB-C53F-451C-A5F2-BFCF80C439C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger.Kafka.PerformanceTests", "Logger.Kafka\test\Logger.Kafka.PerformanceTests\Logger.Kafka.PerformanceTests.csproj", "{7DBA03E9-82B5-4655-888D-1452854A6016}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E710083-655D-443A-AB7D-0634A243D554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E710083-655D-443A-AB7D-0634A243D554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E710083-655D-443A-AB7D-0634A243D554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E710083-655D-443A-AB7D-0634A243D554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DBA03E9-82B5-4655-888D-1452854A6016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBA03E9-82B5-4655-888D-1452854A6016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBA03E9-82B5-4655-888D-1452854A6016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBA03E9-82B5-4655-888D-1452854A6016}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D705A8D-6CF5-45CD-8800-7BDC9A82880B} = {557AB32E-2561-43E6-87E3-8ECBD32B7258}
+		{5E710083-655D-443A-AB7D-0634A243D554} = {7D705A8D-6CF5-45CD-8800-7BDC9A82880B}
+		{7BA1C0CB-C53F-451C-A5F2-BFCF80C439C1} = {7D705A8D-6CF5-45CD-8800-7BDC9A82880B}
+		{7DBA03E9-82B5-4655-888D-1452854A6016} = {7BA1C0CB-C53F-451C-A5F2-BFCF80C439C1}
+	EndGlobalSection
+EndGlobal
